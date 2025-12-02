@@ -1,0 +1,97 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+
+body { background: #f3f3f3; color: #222; }
+
+header {
+    background: #0d0d0d;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('https://i.ibb.co/5T0Zt9H/cctv-bg.jpg') center/cover;
+    padding: 140px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero .btn {
+    background: orange;
+    padding: 12px 20px;
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section { padding: 60px 20px; text-align: center; }
+
+.services .service-box, 
+.products .product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card, .product {
+    background: white;
+    padding: 20px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.note {
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #444;
+}
+
+.contact-box {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-box form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px;
+    background: #0d0d0d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background: #0d0d0d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
